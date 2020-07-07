@@ -1,0 +1,18 @@
+body { 
+    min-height: 100vh;   
+    display: flex;
+    /* Horizontal centering (main axis): */  
+    justify-content: center;  
+    /* Vertical centering (cross axis): */
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+  }
+  
+  .vertical-centered {  
+    padding: 2em;
+    background: #ddd;
+    max-width: 50%;
+    text-align: center;
+  }
